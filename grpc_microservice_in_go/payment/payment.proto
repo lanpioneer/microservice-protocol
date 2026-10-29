@@ -1,0 +1,12 @@
+syntax = "proto3";
+option go_package="github.com/lanpioneer/grpc-microservices-in-go/listing_2.1/payment";
+message CreatePaymentRequest {
+  float price = 1;
+}
+message CreatePaymentResponse {
+  int64 bill_id = 1;
+}
+service Payment {
+    rpc Create(CreatePaymentRequest)
+      returns (CreatePaymentResponse) {}
+}
