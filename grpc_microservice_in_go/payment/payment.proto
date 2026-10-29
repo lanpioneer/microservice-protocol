@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package="github.com/lanpioneer/grpc-microservices-in-go/listing_2.1/payment";
+option go_package="github.com/lanpioneer/microservice-protocol/grpc_microservice_in_go/golang/payment";
 message CreatePaymentRequest {
   float price = 1;
 }

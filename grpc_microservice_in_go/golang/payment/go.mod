@@ -1,4 +1,4 @@
-module payment
+module github.com/lanpioneer/microservice-protocol/grpc_microservice_in_go/golang/payment
 
 go 1.26.0
 
