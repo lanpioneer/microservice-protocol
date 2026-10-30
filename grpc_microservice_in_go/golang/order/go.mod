@@ -1,4 +1,4 @@
-module order
+module github.com/lanpioneer/microservice-protocol/grpc_microservice_in_go/golang/order
 
 go 1.26.0
 
